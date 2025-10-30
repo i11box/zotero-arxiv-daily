@@ -18,7 +18,7 @@ def rerank_paper(candidate: list[ArxivPaper], corpus: list[dict], model: str = "
     kmeans = KMeans(n_clusters=n_classes, random_state=0).fit(corpus_feature)
     labels = kmeans.labels_
     class_counts = np.bincount(labels, minlength=n_classes)
-    class_weights = class_weights / class_weights.sum()  # normalize
+    class_weights = class_counts / class_counts.sum()  # normalize
     cluster_weight = class_weights[labels]  # shape: [n_corpus]
 
     # Combine time decay and cluster size weight
