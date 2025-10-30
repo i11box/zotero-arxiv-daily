@@ -28,6 +28,15 @@ def rerank_paper(candidate: list[ArxivPaper], corpus: list[dict], model: str = "
     sim = encoder.similarity(candidate_feature, corpus_feature)  # [n_candidate, n_corpus]
     scores = (sim * combined_weight).sum(axis=1) * 10  # [n_candidate]
     
+    # 归一化到0-10区间
+    min_score = scores.min()
+    max_score = scores.max()
+    # 避免除零情况
+    if max_score > min_score:
+        scores = (scores - min_score) / (max_score - min_score) * 10
+    else:
+        scores = np.full_like(scores, 5.0)  # 如果所有分数相同，则设为中间值5.0
+    
     for s, c in zip(scores, candidate):
         c.score = s.item()
     candidate = sorted(candidate, key=lambda x: x.score, reverse=True)
