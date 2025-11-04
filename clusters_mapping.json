@@ -1,0 +1,970 @@
+{
+  "1": {
+    "title": "Natural TTS Synthesis by Conditioning WaveNet on Mel Spectrogram Predictions",
+    "date": "2025-11-03T06:36:48Z"
+  },
+  "2": {
+    "title": "Open Source MagicData-RAMC: A Rich Annotated Mandarin Conversational(RAMC) Speech Dataset",
+    "date": "2025-11-03T06:34:02Z"
+  },
+  "3": {
+    "title": "HiFi-Codec: Group-residual Vector quantization for High Fidelity Audio Codec",
+    "date": "2025-11-03T06:24:45Z"
+  },
+  "4": {
+    "title": "wav2vec 2.0: A Framework for Self-Supervised Learning of Speech Representations",
+    "date": "2025-11-03T04:40:26Z"
+  },
+  "5": {
+    "title": "wav2vec: Unsupervised Pre-training for Speech Recognition",
+    "date": "2025-11-03T04:31:12Z"
+  },
+  "6": {
+    "title": "SoundStream: An End-to-End Neural Audio Codec",
+    "date": "2025-11-03T04:21:20Z"
+  },
+  "7": {
+    "title": "vq-wav2vec: Self-Supervised Learning of Discrete Speech Representations",
+    "date": "2025-11-03T03:00:57Z"
+  },
+  "8": {
+    "title": "PromptTTS 2: Describing and Generating Voices with Text Prompt",
+    "date": "2025-11-03T02:42:19Z"
+  },
+  "9": {
+    "title": "PromptTTS: Controllable Text-to-Speech with Text Descriptions",
+    "date": "2025-11-03T02:32:04Z"
+  },
+  "10": {
+    "title": "FireRedTTS-2: Towards Long Conversational Speech Generation for Podcast and Chatbot",
+    "date": "2025-11-03T02:06:21Z"
+  },
+  "11": {
+    "title": "FireRedTTS: A Foundation Text-To-Speech Framework for Industry-Level Generative Speech Applications",
+    "date": "2025-11-03T01:01:01Z"
+  },
+  "12": {
+    "title": "VoiceCraft: Zero-Shot Speech Editing and Text-to-Speech in the Wild",
+    "date": "2025-11-03T01:00:58Z"
+  },
+  "13": {
+    "title": "Make-A-Voice: Unified Voice Synthesis With Discrete Representation",
+    "date": "2025-11-02T15:55:04Z"
+  },
+  "14": {
+    "title": "XTTS: a Massively Multilingual Zero-Shot Text-to-Speech Model",
+    "date": "2025-11-02T15:25:20Z"
+  },
+  "15": {
+    "title": "WenetSpeech4TTS: A 12,800-hour Mandarin TTS Corpus for Large Speech Generation Model Benchmark",
+    "date": "2025-11-02T15:20:15Z"
+  },
+  "16": {
+    "title": "W2v-BERT: Combining Contrastive Learning and Masked Language Modeling for Self-Supervised Speech Pre-Training",
+    "date": "2025-11-02T09:27:29Z"
+  },
+  "17": {
+    "title": "SpeechTokenizer: Unified Speech Tokenizer for Speech Large Language Models",
+    "date": "2025-11-02T09:13:02Z"
+  },
+  "18": {
+    "title": "BigCodec: Pushing the Limits of Low-Bitrate Neural Speech Codec",
+    "date": "2025-11-02T09:04:46Z"
+  },
+  "19": {
+    "title": "WavTokenizer: an Efficient Acoustic Discrete Codec Tokenizer for Audio Language Modeling",
+    "date": "2025-11-02T09:04:40Z"
+  },
+  "20": {
+    "title": "Libri-Light: A Benchmark for ASR with Limited or No Supervision",
+    "date": "2025-11-02T08:38:02Z"
+  },
+  "21": {
+    "title": "Libriheavy: a 50,000 hours ASR corpus with punctuation casing and context",
+    "date": "2025-11-02T08:35:55Z"
+  },
+  "22": {
+    "title": "HuBERT: Self-Supervised Speech Representation Learning by Masked Prediction of Hidden Units",
+    "date": "2025-11-02T07:46:04Z"
+  },
+  "23": {
+    "title": "DNSMOS P.835: A Non-Intrusive Perceptual Objective Speech Quality Metric to Evaluate Noise Suppressors",
+    "date": "2025-11-02T07:32:40Z"
+  },
+  "24": {
+    "title": "DiDiSpeech: A Large Scale Mandarin Speech Corpus",
+    "date": "2025-11-02T07:32:33Z"
+  },
+  "25": {
+    "title": "Scaling Instruction-Finetuned Language Models",
+    "date": "2025-11-02T07:28:43Z"
+  },
+  "26": {
+    "title": "Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer",
+    "date": "2025-11-02T04:58:18Z"
+  },
+  "27": {
+    "title": "GigaSpeech: An Evolving, Multi-domain ASR Corpus with 10,000 Hours of Transcribed Audio",
+    "date": "2025-11-02T04:49:14Z"
+  },
+  "28": {
+    "title": "AISHELL6-whisper: A Chinese Mandarin Audio-visual Whisper Speech Dataset with Speech Recognition Baselines",
+    "date": "2025-11-02T03:23:30Z"
+  },
+  "29": {
+    "title": "AISHELL-1: An Open-Source Mandarin Speech Corpus and A Speech Recognition Baseline",
+    "date": "2025-11-02T02:31:23Z"
+  },
+  "30": {
+    "title": "POWSM: A Phonetic Open Whisper-Style Speech Foundation Model",
+    "date": "2025-11-02T01:58:29Z"
+  },
+  "31": {
+    "title": "Natural language guidance of high-fidelity text-to-speech with synthetic annotations",
+    "date": "2025-11-01T15:03:19Z"
+  },
+  "32": {
+    "title": "emotion2vec: Self-Supervised Pre-Training for Speech Emotion Representation",
+    "date": "2025-11-01T15:02:41Z"
+  },
+  "33": {
+    "title": "Moshi: a speech-text foundation model for real-time dialogue",
+    "date": "2025-11-01T08:08:24Z"
+  },
+  "34": {
+    "title": "High-Fidelity Audio Compression with Improved RVQGAN",
+    "date": "2025-11-01T07:55:37Z"
+  },
+  "35": {
+    "title": "PeRFlow: Piecewise Rectified Flow as Universal Plug-and-Play Accelerator",
+    "date": "2025-11-01T07:37:59Z"
+  },
+  "36": {
+    "title": "UTMOS: UTokyo-SaruLab System for VoiceMOS Challenge 2022",
+    "date": "2025-11-01T06:50:15Z"
+  },
+  "37": {
+    "title": "Seed-TTS: A Family of High-Quality Versatile Speech Generation Models",
+    "date": "2025-11-01T06:25:47Z"
+  },
+  "38": {
+    "title": "Efficient Neural Audio Synthesis",
+    "date": "2025-11-01T05:57:07Z"
+  },
+  "39": {
+    "title": "Emilia: An Extensive, Multilingual, and Diverse Speech Dataset for Large-Scale Speech Generation",
+    "date": "2025-11-01T04:45:25Z"
+  },
+  "40": {
+    "title": "Libriheavy: a 50,000 hours ASR corpus with punctuation casing and context",
+    "date": "2025-11-01T04:38:54Z"
+  },
+  "41": {
+    "title": "High Fidelity Neural Audio Compression",
+    "date": "2025-11-01T04:33:21Z"
+  },
+  "42": {
+    "title": "Conformer: Convolution-augmented Transformer for Speech Recognition",
+    "date": "2025-11-01T02:36:48Z"
+  },
+  "43": {
+    "title": "DualCodec: A Low-Frame-Rate, Semantically-Enhanced Neural Audio Codec for Speech Generation",
+    "date": "2025-11-01T02:01:26Z"
+  },
+  "44": {
+    "title": "Grad-TTS: A Diffusion Probabilistic Model for Text-to-Speech",
+    "date": "2025-11-01T02:00:00Z"
+  },
+  "45": {
+    "title": "Robust Speech Recognition via Large-Scale Weak Supervision",
+    "date": "2025-11-01T01:59:51Z"
+  },
+  "46": {
+    "title": "NaturalSpeech 3: Zero-Shot Speech Synthesis with Factorized Codec and Diffusion Models",
+    "date": "2025-11-01T01:08:46Z"
+  },
+  "47": {
+    "title": "NaturalSpeech 2: Latent Diffusion Models are Natural and Zero-Shot Speech and Singing Synthesizers",
+    "date": "2025-10-31T15:21:57Z"
+  },
+  "48": {
+    "title": "NaturalSpeech: End-to-End Text to Speech Synthesis with Human-Level Quality",
+    "date": "2025-10-31T14:03:48Z"
+  },
+  "49": {
+    "title": "WavLM: Large-Scale Self-Supervised Pre-Training for Full Stack Speech Processing",
+    "date": "2025-10-31T13:06:15Z"
+  },
+  "50": {
+    "title": "HiFi-GAN: Generative Adversarial Networks for Efficient and High Fidelity Speech Synthesis",
+    "date": "2025-10-31T12:39:16Z"
+  },
+  "51": {
+    "title": "ECAPA-TDNN: Emphasized Channel Attention, Propagation and Aggregation in TDNN Based Speaker Verification",
+    "date": "2025-10-31T12:32:33Z"
+  },
+  "52": {
+    "title": "SP-MCQA: Evaluating Intelligibility of TTS Beyond the Word Level",
+    "date": "2025-10-31T11:04:56Z"
+  },
+  "53": {
+    "title": "UniTok-Audio: A Unified Audio Generation Framework via Generative Modeling on Discrete Codec Tokens",
+    "date": "2025-10-31T11:04:13Z"
+  },
+  "54": {
+    "title": "BigVGAN: A Universal Neural Vocoder with Large-Scale Training",
+    "date": "2025-10-31T08:50:14Z"
+  },
+  "55": {
+    "title": "WEST: LLM based Speech Toolkit for Speech Understanding, Generation, and Interaction",
+    "date": "2025-10-31T08:22:31Z"
+  },
+  "56": {
+    "title": "Vocos: Closing the gap between time-domain and Fourier-based neural vocoders for high-quality audio synthesis",
+    "date": "2025-10-31T08:02:09Z"
+  },
+  "57": {
+    "title": "MelGAN: Generative Adversarial Networks for Conditional Waveform Synthesis",
+    "date": "2025-10-31T08:00:48Z"
+  },
+  "58": {
+    "title": "WaveGlow: A Flow-based Generative Network for Speech Synthesis",
+    "date": "2025-10-31T04:31:46Z"
+  },
+  "59": {
+    "title": "WaveNet: A Generative Model for Raw Audio",
+    "date": "2025-10-31T04:18:19Z"
+  },
+  "60": {
+    "title": "SoulX-Podcast: Towards Realistic Long-form Podcasts with Dialectal and Paralinguistic Diversity",
+    "date": "2025-10-30T11:05:08Z"
+  },
+  "61": {
+    "title": "Ming-Flash-Omni: A Sparse, Unified Architecture for Multimodal Perception and Generation",
+    "date": "2025-10-30T07:15:09Z"
+  },
+  "62": {
+    "title": "LaSeR: Reinforcement Learning with Last-Token Self-Rewarding",
+    "date": "2025-10-30T02:57:14Z"
+  },
+  "63": {
+    "title": "Bayesian Speech synthesizers Can Learn from Multiple Teachers",
+    "date": "2025-10-29T10:34:59Z"
+  },
+  "64": {
+    "title": "QualiSpeech: A Speech Quality Assessment Dataset with Natural Language Reasoning and Descriptions",
+    "date": "2025-10-27T13:54:18Z"
+  },
+  "65": {
+    "title": "PhoenixCodec: Taming Neural Speech Coding for Extreme Low-Resource Scenarios",
+    "date": "2025-10-27T10:11:13Z"
+  },
+  "66": {
+    "title": "Data-Centric Lessons To Improve Speech-Language Pretraining",
+    "date": "2025-10-27T04:51:29Z"
+  },
+  "67": {
+    "title": "Vox-Evaluator: Enhancing Stability and Fidelity for Zero-shot TTS with A Multi-Level Evaluator",
+    "date": "2025-10-26T13:16:40Z"
+  },
+  "68": {
+    "title": "Speaking Clearly: A Simplified Whisper-Based Codec for Low-Bitrate Speech Coding",
+    "date": "2025-10-26T13:16:23Z"
+  },
+  "69": {
+    "title": "Decoding the Ear: A Framework for Objectifying Expressiveness from Human Preference Through Efficient Alignment",
+    "date": "2025-10-26T13:15:59Z"
+  },
+  "70": {
+    "title": "Demystifying Transition Matching: When and Why It Can Beat Flow Matching",
+    "date": "2025-10-26T13:15:01Z"
+  },
+  "71": {
+    "title": "SAC: Neural Speech Codec with Semantic-Acoustic Dual-Stream Quantization",
+    "date": "2025-10-26T13:01:59Z"
+  },
+  "72": {
+    "title": "ParaStyleTTS: Toward Efficient and Robust Paralinguistic Style Control for Expressive Text-to-Speech Generation",
+    "date": "2025-10-26T13:01:25Z"
+  },
+  "73": {
+    "title": "LDCodec: A high quality neural audio codec with low-complexity decoder",
+    "date": "2025-10-26T13:00:15Z"
+  },
+  "74": {
+    "title": "Which Evaluation for Which Model? A Taxonomy for Speech Model Assessment",
+    "date": "2025-10-26T12:56:50Z"
+  },
+  "75": {
+    "title": "AlphaFlow: Understanding and Improving MeanFlow Models",
+    "date": "2025-10-26T12:55:12Z"
+  },
+  "76": {
+    "title": "OmniVinci: Enhancing Architecture and Data for Omni-Modal Understanding LLM",
+    "date": "2025-10-26T12:49:45Z"
+  },
+  "77": {
+    "title": "U-Codec: Ultra Low Frame-rate Neural Speech Codec for Fast High-fidelity Speech Generation",
+    "date": "2025-10-26T10:27:20Z"
+  },
+  "78": {
+    "title": "RLAIF-SPA: Optimizing LLM-based Emotional Speech Synthesis via RLAIF",
+    "date": "2025-10-18T04:36:11Z"
+  },
+  "79": {
+    "title": "AudioEval: Automatic Dual-Perspective and Multi-Dimensional Evaluation of Text-to-Audio-Generation",
+    "date": "2025-10-17T10:14:10Z"
+  },
+  "80": {
+    "title": "SpeechLLM-as-Judges: Towards General and Interpretable Speech Quality Evaluation",
+    "date": "2025-10-17T10:13:36Z"
+  },
+  "81": {
+    "title": "TASLA: Text-Aligned Speech Tokens with Multiple Layer-Aggregation",
+    "date": "2025-10-17T10:12:06Z"
+  },
+  "82": {
+    "title": "StreamFlow: Streaming Flow Matching with Block-wise Guided Attention Mask for Speech Token Decoding",
+    "date": "2025-10-17T10:08:33Z"
+  },
+  "83": {
+    "title": "DiSTAR: Diffusion over a Scalable Token Autoregressive Representation for Speech Generation",
+    "date": "2025-10-15T10:54:07Z"
+  },
+  "84": {
+    "title": "BridgeCode: A Dual Speech Representation Paradigm for Autoregressive Zero-Shot Text-to-Speech Synthesis",
+    "date": "2025-10-15T10:50:52Z"
+  },
+  "85": {
+    "title": "Finite Scalar Quantization Enables Redundant and Transmission-Robust Neural Audio Compression at Low Bit-rates",
+    "date": "2025-10-15T10:47:03Z"
+  },
+  "86": {
+    "title": "DiaMoE-TTS: A Unified IPA-Based Dialect TTS Framework with Mixture-of-Experts and Parameter-Efficient Zero-Shot Adaptation",
+    "date": "2025-10-15T10:40:16Z"
+  },
+  "87": {
+    "title": "SynthVC: Leveraging Synthetic Data for End-to-End Low Latency Streaming Voice Conversion",
+    "date": "2025-10-14T01:11:10Z"
+  },
+  "88": {
+    "title": "StableToken: A Noise-Robust Semantic Speech Tokenizer for Resilient SpeechLLMs",
+    "date": "2025-10-12T01:13:48Z"
+  },
+  "89": {
+    "title": "SALAD-VAE: Semantic Audio Compression with Language-Audio Distillation",
+    "date": "2025-10-11T04:57:25Z"
+  },
+  "90": {
+    "title": "DialoSpeech: Dual-Speaker Dialogue Generation with LLM and Flow Matching",
+    "date": "2025-10-11T04:56:54Z"
+  },
+  "91": {
+    "title": "Reinforcement Learning Meets Large Language Models: A Survey of Advancements and Applications Across the LLM Lifecycle",
+    "date": "2025-10-11T01:45:00Z"
+  },
+  "92": {
+    "title": "IntMeanFlow: Few-step Speech Generation with Integral Velocity Distillation",
+    "date": "2025-10-11T01:37:51Z"
+  },
+  "93": {
+    "title": "MeanVC: Lightweight and Streaming Zero-Shot Voice Conversion via Mean Flows",
+    "date": "2025-10-10T06:20:40Z"
+  },
+  "94": {
+    "title": "Open ASR Leaderboard: Towards Reproducible and Transparent Multilingual and Long-Form Speech Recognition Evaluation",
+    "date": "2025-10-10T01:11:58Z"
+  },
+  "95": {
+    "title": "Towards Responsible Evaluation for Text-to-Speech",
+    "date": "2025-10-09T10:57:26Z"
+  },
+  "96": {
+    "title": "EMORL-TTS: Reinforcement Learning for Fine-Grained Emotion Control in LLM-based TTS",
+    "date": "2025-10-09T01:21:21Z"
+  },
+  "97": {
+    "title": "UniVoice: Unifying Autoregressive ASR and Flow-Matching based TTS with Large Language Models",
+    "date": "2025-10-07T15:34:18Z"
+  },
+  "98": {
+    "title": "Flamed-TTS: Flow Matching Attention-Free Models for Efficient Generating and Dynamic Pacing Zero-shot Text-to-Speech",
+    "date": "2025-10-07T01:57:54Z"
+  },
+  "99": {
+    "title": "MelCap: A Unified Single-Codebook Neural Codec for High-Fidelity Audio Compression",
+    "date": "2025-10-04T01:22:30Z"
+  },
+  "100": {
+    "title": "MOSS-Speech: Towards True Speech-to-Speech Models Without Text Guidance",
+    "date": "2025-10-03T11:51:22Z"
+  },
+  "101": {
+    "title": "From Scores to Preferences: Redefining MOS Benchmarking for Speech Quality Reward Modeling",
+    "date": "2025-10-03T01:47:04Z"
+  },
+  "102": {
+    "title": "FlexiCodec: A Dynamic Neural Audio Codec for Low Frame Rates",
+    "date": "2025-10-03T01:44:27Z"
+  },
+  "103": {
+    "title": "Emotion-Aligned Generation in Diffusion Text to Speech Models via Preference-Guided Optimization",
+    "date": "2025-10-02T02:27:24Z"
+  },
+  "104": {
+    "title": "BatonVoice: An Operationalist Framework for Enhancing Controllable Speech Synthesis with Linguistic Intelligence from LLMs",
+    "date": "2025-10-02T01:38:53Z"
+  },
+  "105": {
+    "title": "HiStyle: Hierarchical Style Embedding Predictor for Text-Prompt-Guided Controllable Speech Synthesis",
+    "date": "2025-10-02T01:21:17Z"
+  },
+  "106": {
+    "title": "SECodec: Structural Entropy-based Compressive Speech Representation Codec for Speech Language Models",
+    "date": "2025-10-01T06:54:37Z"
+  },
+  "107": {
+    "title": "MGM-Omni: Scaling Omni LLMs to Personalized Long-Horizon Speech",
+    "date": "2025-10-01T01:18:09Z"
+  },
+  "108": {
+    "title": "VoxCPM: Tokenizer-Free TTS for Context-Aware Speech Generation and True-to-Life Voice Cloning",
+    "date": "2025-10-01T01:17:52Z"
+  },
+  "109": {
+    "title": "MiMo-Audio: Audio Language Models are Few-Shot Learners",
+    "date": "2025-09-30T07:25:33Z"
+  },
+  "110": {
+    "title": "WenetSpeech-Yue: A Large-scale Cantonese Speech Corpus with Multi-dimensional Annotation",
+    "date": "2025-09-29T02:28:55Z"
+  },
+  "111": {
+    "title": "WenetSpeech-Chuan: A Large-Scale Sichuanese Corpus with Rich Annotation for Dialectal Speech Processing",
+    "date": "2025-09-29T02:28:42Z"
+  },
+  "112": {
+    "title": "Metis: A Foundation Speech Generation Model with Masked Generative Pre-training",
+    "date": "2025-09-28T15:34:50Z"
+  },
+  "113": {
+    "title": "Shallow Flow Matching for Coarse-to-Fine Text-to-Speech Synthesis",
+    "date": "2025-09-28T15:01:09Z"
+  },
+  "114": {
+    "title": "FocalCodec: Low-Bitrate Speech Coding via Focal Modulation Networks",
+    "date": "2025-09-28T14:55:53Z"
+  },
+  "115": {
+    "title": "Efficient Speech Language Modeling via Energy Distance in Continuous Latent Space",
+    "date": "2025-09-28T14:53:08Z"
+  },
+  "116": {
+    "title": "Objective Evaluation of Prosody and Intelligibility in Speech Synthesis via Conditional Prediction of Discrete Tokens",
+    "date": "2025-09-28T11:58:21Z"
+  },
+  "117": {
+    "title": "UniSS: Unified Expressive Speech-to-Speech Translation with Your Voice",
+    "date": "2025-09-28T11:56:03Z"
+  },
+  "118": {
+    "title": "Measuring Prosody Diversity in Zero-Shot TTS: A New Metric, Benchmark, and Exploration",
+    "date": "2025-09-27T01:30:27Z"
+  },
+  "119": {
+    "title": "MNV-17: A High-Quality Performative Mandarin Dataset for Nonverbal Vocalization Recognition in Speech",
+    "date": "2025-09-27T01:25:22Z"
+  },
+  "120": {
+    "title": "Explore the Reinforcement Learning for the LLM based ASR and TTS system",
+    "date": "2025-09-25T01:30:57Z"
+  },
+  "121": {
+    "title": "Direct Preference Optimization for Speech Autoregressive Diffusion Models",
+    "date": "2025-09-24T10:57:26Z"
+  },
+  "122": {
+    "title": "EchoX: Towards Mitigating Acoustic-Semantic Gap via Echo Training for Speech-to-Speech LLMs",
+    "date": "2025-09-24T04:16:27Z"
+  },
+  "123": {
+    "title": "Better speech synthesis through scaling",
+    "date": "2025-09-23T11:00:05Z"
+  },
+  "124": {
+    "title": "Qwen3-Omni Technical Report",
+    "date": "2025-09-23T10:15:42Z"
+  },
+  "125": {
+    "title": "MiMo-Audio: Audio Language Models are Few-Shot Learners",
+    "date": "2025-09-22T04:56:45Z"
+  },
+  "126": {
+    "title": "FlowRL: Matching Reward Distributions for LLM Reasoning",
+    "date": "2025-09-21T15:19:21Z"
+  },
+  "127": {
+    "title": "LLaSO: A Foundational Framework for Reproducible Research in Large Language and Speech Model",
+    "date": "2025-09-21T15:15:18Z"
+  },
+  "128": {
+    "title": "ZipVoice: Fast and High-Quality Zero-Shot Text-to-Speech with Flow Matching",
+    "date": "2025-09-18T12:56:08Z"
+  },
+  "129": {
+    "title": "Neural Codec Language Models are Zero-Shot Text to Speech Synthesizers",
+    "date": "2025-09-18T02:11:59Z"
+  },
+  "130": {
+    "title": "FuseCodec: Semantic-Contextual Fusion and Supervision for Neural Codecs",
+    "date": "2025-09-17T00:21:04Z"
+  },
+  "131": {
+    "title": "CoDiCodec: Unifying Continuous and Discrete Compressed Representations of Audio",
+    "date": "2025-09-16T01:18:33Z"
+  },
+  "132": {
+    "title": "Deep Compression Autoencoder for Efficient High-Resolution Diffusion Models",
+    "date": "2025-09-14T15:58:41Z"
+  },
+  "133": {
+    "title": "Can Understanding and Generation Truly Benefit Together -- or Just Coexist?",
+    "date": "2025-09-14T15:53:36Z"
+  },
+  "134": {
+    "title": "DiFlow-TTS: Discrete Flow Matching with Factorized Speech Tokens for Low-Latency Zero-Shot Text-To-Speech",
+    "date": "2025-09-13T01:39:29Z"
+  },
+  "135": {
+    "title": "iSTFTNet: Fast and Lightweight Mel-Spectrogram Vocoder Incorporating Inverse Short-Time Fourier Transform",
+    "date": "2025-09-10T12:06:29Z"
+  },
+  "136": {
+    "title": "Fish-Speech: Leveraging Large Language Models for Advanced Multilingual Text-to-Speech Synthesis",
+    "date": "2025-09-10T12:05:05Z"
+  },
+  "137": {
+    "title": "StyleTTS 2: Towards Human-Level Text-to-Speech through Style Diffusion and Adversarial Training with Large Speech Language Models",
+    "date": "2025-09-10T12:00:18Z"
+  },
+  "138": {
+    "title": "MiniMax-Speech: Intrinsic Zero-Shot Text-to-Speech with a Learnable Speaker Encoder",
+    "date": "2025-09-10T11:59:32Z"
+  },
+  "139": {
+    "title": "FireRedChat: A Pluggable, Full-Duplex Voice Interaction System with Cascaded and Semi-Cascaded Implementations",
+    "date": "2025-09-10T01:36:29Z"
+  },
+  "140": {
+    "title": "Continuous Audio Language Models",
+    "date": "2025-09-09T15:21:55Z"
+  },
+  "141": {
+    "title": "MPO: Multidimensional Preference Optimization for Language Model-based Text-to-Speech",
+    "date": "2025-09-03T11:30:42Z"
+  },
+  "142": {
+    "title": "FireRedTTS-2: Towards Long Conversational Speech Generation for Podcast and Chatbot",
+    "date": "2025-09-03T11:29:23Z"
+  },
+  "143": {
+    "title": "AHELM: A Holistic Evaluation of Audio-Language Models",
+    "date": "2025-09-02T01:49:22Z"
+  },
+  "144": {
+    "title": "Inference-Time Alignment Control for Diffusion Models with Reinforcement Learning Guidance",
+    "date": "2025-08-30T02:21:34Z"
+  },
+  "145": {
+    "title": "CodecBench: A Comprehensive Benchmark for Acoustic and Semantic Evaluation",
+    "date": "2025-08-29T10:22:06Z"
+  },
+  "146": {
+    "title": "OSUM-EChat: Enhancing End-to-End Empathetic Spoken Chatbot via Understanding-Driven Spoken Dialogue",
+    "date": "2025-08-29T02:56:16Z"
+  },
+  "147": {
+    "title": "VibeVoice Technical Report",
+    "date": "2025-08-27T02:18:09Z"
+  },
+  "148": {
+    "title": "TaDiCodec: Text-aware Diffusion Speech Tokenizer for Speech Language Modeling",
+    "date": "2025-08-26T11:01:05Z"
+  },
+  "149": {
+    "title": "Vevo2: Bridging Controllable Speech and Singing Voice Generation via Unified Prosody Learning",
+    "date": "2025-08-26T02:30:43Z"
+  },
+  "150": {
+    "title": "Kimi-Audio Technical Report",
+    "date": "2025-08-25T02:30:34Z"
+  },
+  "151": {
+    "title": "A Survey of Efficient Attention Methods: Hardware-efficient, Sparse, Compact, and Linear Attention",
+    "date": "2025-08-24T02:04:50Z"
+  },
+  "152": {
+    "title": "Gaussian Mixture Flow Matching Models",
+    "date": "2025-08-24T02:02:09Z"
+  },
+  "153": {
+    "title": "LSNet: See Large, Focus Small",
+    "date": "2025-08-23T02:12:08Z"
+  },
+  "154": {
+    "title": "MoE-TTS: Enhancing Out-of-Domain Text Understanding for Description-based TTS via Mixture-of-Experts",
+    "date": "2025-08-19T14:01:14Z"
+  },
+  "155": {
+    "title": "Meta Audiobox Aesthetics: Unified Automatic Quality Assessment for Speech, Music, and Sound",
+    "date": "2025-08-19T13:52:09Z"
+  },
+  "156": {
+    "title": "Spark-TTS: An Efficient LLM-Based Text-to-Speech Model with Single-Stream Decoupled Speech Tokens",
+    "date": "2025-08-19T10:30:15Z"
+  },
+  "157": {
+    "title": "XY-Tokenizer: Mitigating the Semantic-Acoustic Conflict in Low-Bitrate Speech Codecs",
+    "date": "2025-08-19T10:05:27Z"
+  },
+  "158": {
+    "title": "Accelerating Autoregressive Speech Synthesis Inference With Speech Speculative Decoding",
+    "date": "2025-08-16T07:17:57Z"
+  },
+  "159": {
+    "title": "Accelerating Flow-Matching-Based Text-to-Speech via Empirically Pruned Step Sampling",
+    "date": "2025-08-16T06:58:50Z"
+  },
+  "160": {
+    "title": "Speech Token Prediction via Compressed-to-fine Language Modeling for Speech Generation",
+    "date": "2025-08-13T03:16:42Z"
+  },
+  "161": {
+    "title": "Pseudo-Autoregressive Neural Codec Language Models for Efficient Zero-Shot Text-to-Speech Synthesis",
+    "date": "2025-08-13T03:15:33Z"
+  },
+  "162": {
+    "title": "FELLE: Autoregressive Speech Synthesis with Token-Wise Coarse-to-Fine Flow Matching",
+    "date": "2025-08-13T03:13:54Z"
+  },
+  "163": {
+    "title": "Scaling Transformers for Low-Bitrate High-Quality Speech Coding",
+    "date": "2025-08-13T02:50:08Z"
+  },
+  "164": {
+    "title": "Multi-band Frequency Reconstruction for Neural Psychoacoustic Coding",
+    "date": "2025-08-13T02:36:43Z"
+  },
+  "165": {
+    "title": "Maestro-EVC: Controllable Emotional Voice Conversion Guided by References and Explicit Prosody",
+    "date": "2025-08-13T01:25:14Z"
+  },
+  "166": {
+    "title": "SpeechCraft: A Fine-grained Expressive Speech Dataset with Natural Language Description",
+    "date": "2025-08-10T01:36:40Z"
+  },
+  "167": {
+    "title": "A Survey on Neural Speech Synthesis",
+    "date": "2025-08-09T08:06:55Z"
+  },
+  "168": {
+    "title": "A Scalable Pipeline for Enabling Non-Verbal Speech Generation and Understanding",
+    "date": "2025-08-09T02:09:45Z"
+  },
+  "169": {
+    "title": "NVSpeech: An Integrated and Scalable Pipeline for Human-Like Speech Modeling with Paralinguistic Vocalizations",
+    "date": "2025-08-09T02:03:15Z"
+  },
+  "170": {
+    "title": "OZSpeech: One-step Zero-shot Speech Synthesis with Learned-Prior-Conditioned Flow Matching",
+    "date": "2025-08-07T07:31:04Z"
+  },
+  "171": {
+    "title": "Soundwave: Less is More for Speech-Text Alignment in LLMs",
+    "date": "2025-08-07T07:29:40Z"
+  },
+  "172": {
+    "title": "Autoregressive Speech Synthesis without Vector Quantization",
+    "date": "2025-08-07T07:27:19Z"
+  },
+  "173": {
+    "title": "Fine-Tuning Text-to-Speech Diffusion Models Using Reinforcement Learning with Human Feedback",
+    "date": "2025-08-07T00:57:54Z"
+  },
+  "174": {
+    "title": "Non-Verbal Vocalisations and their Challenges: Emotion, Privacy, Sparseness, and Real Life",
+    "date": "2025-08-06T01:48:57Z"
+  },
+  "175": {
+    "title": "Marco-Voice Technical Report",
+    "date": "2025-08-06T01:39:38Z"
+  },
+  "176": {
+    "title": "AudioGen-Omni: A Unified Multimodal Diffusion Transformer for Video-Synchronized Audio, Speech, and Song Generation",
+    "date": "2025-08-05T03:03:48Z"
+  },
+  "177": {
+    "title": "BATON: Aligning Text-to-Audio Model with Human Preference Feedback",
+    "date": "2025-08-04T11:23:48Z"
+  },
+  "178": {
+    "title": "EmoVoice: LLM-based Emotional Text-To-Speech Model with Freestyle Text Prompting",
+    "date": "2025-08-04T11:21:15Z"
+  },
+  "179": {
+    "title": "ImageReward: Learning and Evaluating Human Preferences for Text-to-Image Generation",
+    "date": "2025-08-04T09:06:52Z"
+  },
+  "180": {
+    "title": "Generalist Reward Models: Found Inside Large Language Models",
+    "date": "2025-08-03T02:48:42Z"
+  },
+  "181": {
+    "title": "Recent Advances in Discrete Speech Tokens: A Review",
+    "date": "2025-08-01T07:44:34Z"
+  },
+  "182": {
+    "title": "Weighted Conditional Flow Matching",
+    "date": "2025-08-01T01:44:36Z"
+  },
+  "183": {
+    "title": "Next Tokens Denoising for Speech Synthesis",
+    "date": "2025-08-01T01:40:42Z"
+  },
+  "184": {
+    "title": "EDGE-GRPO: Entropy-Driven GRPO with Guided Error Correction for Advantage Diversity",
+    "date": "2025-07-31T03:01:40Z"
+  },
+  "185": {
+    "title": "MixGRPO: Unlocking Flow-based GRPO Efficiency with Mixed ODE-SDE",
+    "date": "2025-07-31T03:00:39Z"
+  },
+  "186": {
+    "title": "Combolutional Neural Networks",
+    "date": "2025-07-31T02:57:25Z"
+  },
+  "187": {
+    "title": "TTS-1 Technical Report",
+    "date": "2025-07-31T02:53:22Z"
+  },
+  "188": {
+    "title": "ProsodyLM: Uncovering the Emerging Prosody Processing Capabilities in Speech Language Models",
+    "date": "2025-07-30T01:22:30Z"
+  },
+  "189": {
+    "title": "Towards Flow-Matching-based TTS without Classifier-Free Guidance",
+    "date": "2025-07-29T07:20:56Z"
+  },
+  "190": {
+    "title": "HH-Codec: High Compression High-fidelity Discrete Neural Codec for Spoken Language Modeling",
+    "date": "2025-07-29T02:37:23Z"
+  },
+  "191": {
+    "title": "Group Sequence Policy Optimization",
+    "date": "2025-07-27T03:12:19Z"
+  },
+  "192": {
+    "title": "Audio Flamingo 3: Advancing Audio Intelligence with Fully Open Large Audio Language Models",
+    "date": "2025-07-27T03:09:42Z"
+  },
+  "193": {
+    "title": "Is Noise Conditioning Necessary for Denoising Generative Models?",
+    "date": "2025-07-27T03:05:31Z"
+  },
+  "194": {
+    "title": "Inductive Moment Matching",
+    "date": "2025-07-27T03:00:54Z"
+  },
+  "195": {
+    "title": "DIFFA: Large Language Diffusion Models Can Listen and Understand",
+    "date": "2025-07-26T02:00:14Z"
+  },
+  "196": {
+    "title": "BoSS: Beyond-Semantic Speech",
+    "date": "2025-07-25T01:55:38Z"
+  },
+  "197": {
+    "title": "SplitMeanFlow: Interval Splitting Consistency in Few-Step Generative Modeling",
+    "date": "2025-07-25T01:35:22Z"
+  },
+  "198": {
+    "title": "ReDi: Rectified Discrete Flow",
+    "date": "2025-07-24T01:22:31Z"
+  },
+  "199": {
+    "title": "Step-Audio 2 Technical Report",
+    "date": "2025-07-23T07:18:14Z"
+  },
+  "200": {
+    "title": "DiC: Rethinking Conv3x3 Designs in Diffusion Models",
+    "date": "2025-07-20T09:01:11Z"
+  },
+  "201": {
+    "title": "DiTAR: Diffusion Transformer Autoregressive Modeling for Speech Generation",
+    "date": "2025-07-20T08:53:15Z"
+  },
+  "202": {
+    "title": "PAST: Phonetic-Acoustic Speech Tokenizer",
+    "date": "2025-07-20T08:51:44Z"
+  },
+  "203": {
+    "title": "AudioJudge: Understanding What Works in Large Audio Model Based Speech Evaluation",
+    "date": "2025-07-19T04:00:56Z"
+  },
+  "204": {
+    "title": "EME-TTS: Unlocking the Emphasis and Emotion Link in Speech Synthesis",
+    "date": "2025-07-18T03:04:26Z"
+  },
+  "205": {
+    "title": "Quantize More, Lose Less: Autoregressive Generation from Residually Quantized Speech Representations",
+    "date": "2025-07-18T03:02:49Z"
+  },
+  "206": {
+    "title": "Reinforcement Learning Enhanced LLMs: A Survey",
+    "date": "2025-07-18T02:31:36Z"
+  },
+  "207": {
+    "title": "Latent Diffusion Models with Masked AutoEncoders",
+    "date": "2025-07-16T02:00:13Z"
+  },
+  "208": {
+    "title": "RepeaTTS: Towards Feature Discovery through Repeated Fine-Tuning",
+    "date": "2025-07-15T02:10:45Z"
+  },
+  "209": {
+    "title": "Energy-Based Transformers are Scalable Learners and Thinkers",
+    "date": "2025-07-14T07:44:31Z"
+  },
+  "210": {
+    "title": "MMSU: A Massive Multi-task Spoken Language Understanding and Reasoning Benchmark",
+    "date": "2025-07-14T07:30:53Z"
+  },
+  "211": {
+    "title": "Flow-Anchored Consistency Models",
+    "date": "2025-07-09T07:02:22Z"
+  },
+  "212": {
+    "title": "On the guidance of Flow Matching",
+    "date": "2025-07-06T09:24:32Z"
+  },
+  "213": {
+    "title": "Transition Matching: Scalable and Flexible Generative Modeling",
+    "date": "2025-07-02T04:26:59Z"
+  },
+  "214": {
+    "title": "IndexTTS2: A Breakthrough in Emotionally Expressive and Duration-Controlled Auto-Regressive Zero-Shot Text-to-Speech",
+    "date": "2025-07-01T01:40:23Z"
+  },
+  "215": {
+    "title": "Robust and Efficient Autoregressive Speech Synthesis with Dynamic Chunk-wise Prediction Policy",
+    "date": "2025-07-01T01:38:42Z"
+  },
+  "216": {
+    "title": "OverLoCK: An Overview-first-Look-Closely-next ConvNet with Context-Mixing Dynamic Kernels",
+    "date": "2025-06-30T08:08:46Z"
+  },
+  "217": {
+    "title": "LM-SPT: LM-Aligned Semantic Distillation for Speech Tokenization",
+    "date": "2025-06-24T06:39:03Z"
+  },
+  "218": {
+    "title": "A Variational Framework for Improving Naturalness in Generative Spoken Language Models",
+    "date": "2025-06-22T02:06:56Z"
+  },
+  "219": {
+    "title": "On the Closed-Form of Flow Matching: Generalization Does Not Arise from Target Stochasticity",
+    "date": "2025-06-22T02:05:55Z"
+  },
+  "220": {
+    "title": "Align Your Flow: Scaling Continuous-Time Flow Map Distillation",
+    "date": "2025-06-22T02:04:07Z"
+  },
+  "221": {
+    "title": "Recent Advances in Speech Language Models: A Survey",
+    "date": "2025-06-22T01:59:47Z"
+  },
+  "222": {
+    "title": "Discrete Diffusion in Large Language and Multimodal Models: A Survey",
+    "date": "2025-06-18T13:58:17Z"
+  },
+  "223": {
+    "title": "Fine-Grained Perturbation Guidance via Attention Head Selection",
+    "date": "2025-06-14T01:37:16Z"
+  },
+  "224": {
+    "title": "Marrying Autoregressive Transformer and Diffusion with Multi-Reference Autoregression",
+    "date": "2025-06-14T00:27:00Z"
+  },
+  "225": {
+    "title": "Sparse Autoencoders, Again?",
+    "date": "2025-06-10T05:11:58Z"
+  },
+  "226": {
+    "title": "Aligning Latent Spaces with Flow Priors",
+    "date": "2025-06-10T05:11:00Z"
+  },
+  "227": {
+    "title": "Feedback Guidance of Diffusion Models",
+    "date": "2025-06-10T05:06:49Z"
+  },
+  "228": {
+    "title": "Contrastive Flow Matching",
+    "date": "2025-06-09T05:12:35Z"
+  },
+  "229": {
+    "title": "EmergentTTS-Eval: Evaluating TTS Models on Complex Prosodic, Expressiveness, and Linguistic Challenges Using Model-as-a-Judge",
+    "date": "2025-06-09T05:01:02Z"
+  },
+  "230": {
+    "title": "Parallel Scaling Law for Language Models",
+    "date": "2025-06-05T02:50:46Z"
+  },
+  "231": {
+    "title": "Accelerating Diffusion-based Text-to-Speech Model Training with Dual Modality Alignment",
+    "date": "2025-06-01T02:37:22Z"
+  },
+  "232": {
+    "title": "Accelerating Flow-Matching-Based Text-to-Speech via Empirically Pruned Step Sampling",
+    "date": "2025-06-01T02:36:14Z"
+  },
+  "233": {
+    "title": "CosyVoice 3: Towards In-the-wild Speech Generation via Scaling-up and Post-training",
+    "date": "2025-05-27T03:35:27Z"
+  },
+  "234": {
+    "title": "Mean Flows for One-step Generative Modeling",
+    "date": "2025-05-26T09:41:11Z"
+  },
+  "235": {
+    "title": "Diffusion Models without Classifier-free Guidance",
+    "date": "2025-05-06T03:50:08Z"
+  },
+  "236": {
+    "title": "Qwen2.5-Omni Technical Report",
+    "date": "2025-04-28T13:37:49Z"
+  },
+  "237": {
+    "title": "Towards Controllable Speech Synthesis in the Era of Large Language Models: A Survey",
+    "date": "2025-04-25T01:02:24Z"
+  },
+  "238": {
+    "title": "MegaTTS 3: Sparse Alignment Enhanced Latent Diffusion Transformer for Zero-Shot Speech Synthesis",
+    "date": "2025-04-08T15:10:31Z"
+  },
+  "239": {
+    "title": "Flow Straight and Fast: Learning to Generate and Transfer Data with Rectified Flow",
+    "date": "2025-04-08T03:20:23Z"
+  },
+  "240": {
+    "title": "A Survey on Audio Diffusion Models: Text To Speech Synthesis and Enhancement in Generative AI",
+    "date": "2025-03-20T08:15:44Z"
+  },
+  "241": {
+    "title": "Towards Robust Speech Representation Learning for Thousands of Languages",
+    "date": "2025-03-19T14:26:44Z"
+  },
+  "242": {
+    "title": "F5-TTS: A Fairytaler that Fakes Fluent and Faithful Speech with Flow Matching",
+    "date": "2024-11-15T06:22:59Z"
+  }
+}

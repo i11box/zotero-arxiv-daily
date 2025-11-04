@@ -6,7 +6,7 @@ from dotenv import load_dotenv
 load_dotenv(override=True)
 os.environ["TOKENIZERS_PARALLELISM"] = "false"
 from pyzotero import zotero
-from recommender import rerank_paper
+from recommender import rerank_paper, visualize_clusters
 from construct_email import render_email, send_email
 from tqdm import trange,tqdm
 from loguru import logger
@@ -17,6 +17,8 @@ from llm import set_global_llm
 import feedparser
 
 def get_zotero_corpus(id:str,key:str) -> list[dict]:
+    id = '17325915'
+    key = 'xtpJclQLLwr0xic5kCBmJnMC'
     zot = zotero.Zotero(id, 'user', key)
     collections = zot.everything(zot.collections())
     collections = {c['key']:c for c in collections}
@@ -141,6 +143,12 @@ if __name__ == '__main__':
         help="Language of TLDR",
         default="English",
     )
+    add_argument(
+        "--visualize_clusters",
+        type=bool,
+        help="Whether to generate cluster visualization",
+        default=False,
+    )
     parser.add_argument('--debug', action='store_true', help='Debug mode')
     args = parser.parse_args()
     assert (
@@ -161,26 +169,29 @@ if __name__ == '__main__':
         logger.info(f"Ignoring papers in:\n {args.zotero_ignore}...")
         corpus = filter_corpus(corpus, args.zotero_ignore)
         logger.info(f"Remaining {len(corpus)} papers after filtering.")
-    logger.info("Retrieving Arxiv papers...")
-    papers = get_arxiv_paper(args.arxiv_query, args.debug)
-    if len(papers) == 0:
-        logger.info("No new papers found. Yesterday maybe a holiday and no one submit their work :). If this is not the case, please check the ARXIV_QUERY.")
-        if not args.send_empty:
-          exit(0)
+    # logger.info("Retrieving Arxiv papers...")
+    # papers = get_arxiv_paper(args.arxiv_query, args.debug)
+    # if len(papers) == 0:
+    #     logger.info("No new papers found. Yesterday maybe a holiday and no one submit their work :). If this is not the case, please check the ARXIV_QUERY.")
+    #     if not args.send_empty:
+    #       exit(0)
     else:
-        logger.info("Reranking papers...")
-        papers = rerank_paper(papers, corpus)
-        if args.max_paper_num != -1:
-            papers = papers[:args.max_paper_num]
-        if args.use_llm_api:
-            logger.info("Using OpenAI API as global LLM.")
-            set_global_llm(api_key=args.openai_api_key, base_url=args.openai_api_base, model=args.model_name, lang=args.language)
-        else:
-            logger.info("Using Local LLM as global LLM.")
-            set_global_llm(lang=args.language)
+        logger.info("Generating cluster visualization...")
+        visualize_clusters(corpus)
+        logger.info("Cluster visualization saved to clusters.png")
+            
+        # logger.info("Reranking papers...")
+        # papers = rerank_paper(papers, corpus)
+        # if args.max_paper_num != -1:
+        #     papers = papers[:args.max_paper_num]
+        # if args.use_llm_api:
+        #     logger.info("Using OpenAI API as global LLM.")
+        #     set_global_llm(api_key=args.openai_api_key, base_url=args.openai_api_base, model=args.model_name, lang=args.language)
+        # else:
+        #     logger.info("Using Local LLM as global LLM.")
+        #     set_global_llm(lang=args.language)
 
-    html = render_email(papers)
-    logger.info("Sending email...")
-    send_email(args.sender, args.receiver, args.sender_password, args.smtp_server, args.smtp_port, html)
-    logger.success("Email sent successfully! If you don't receive the email, please check the configuration and the junk box.")
-
+    # html = render_email(papers)
+    # logger.info("Sending email...")
+    # send_email(args.sender, args.receiver, args.sender_password, args.smtp_server, args.smtp_port, html)
+    # logger.success("Email sent successfully! If you don't receive the email, please check the configuration and the junk box.")
