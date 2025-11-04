@@ -4,7 +4,7 @@ from datetime import datetime
 from paper import ArxivPaper
 from sentence_transformers import SentenceTransformer
 
-def rerank_paper(candidate: list[ArxivPaper], corpus: list[dict], model: str = "google/embeddinggemma-300m", n_classes = 3) -> list[ArxivPaper]:
+def rerank_paper(candidate: list[ArxivPaper], corpus: list[dict], model: str = "google/embeddinggemma-300m", n_classes = 2) -> list[ArxivPaper]:
     encoder = SentenceTransformer(model)
     # sort corpus by date, from newest to oldest
     corpus = sorted(corpus, key=lambda x: datetime.strptime(x['data']['dateAdded'], '%Y-%m-%dT%H:%M:%SZ'), reverse=True)
